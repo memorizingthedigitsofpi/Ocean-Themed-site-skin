@@ -1,0 +1,676 @@
+
+
+#header h1 sup,
+#header .button,
+#header .landmark,
+#header .logo {
+  display: none;
+}
+
+#outer.wrapper {
+  box-shadow: none;
+  background-image: url("https://i.imgur.com/SzBIG7E.png");
+  background-repeat: repeat-y;
+  background-color: #0a3254;
+}
+
+#inner.wrapper {
+  background: rgba(2, 20, 35, 0.5);
+}
+
+#header .heading {
+  height: 15em;
+}
+
+#header {
+  background: transparent;
+  background-image: url("https://i.imgur.com/qm3bLOQ.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  border-bottom: 4px solid #fff;
+}
+
+#header .heading a {
+  color: #045b9b;
+  padding-left: 1em;
+  font-variant: small-caps;
+}
+
+#header .primary {
+  background: transparent;
+  box-shadow: none;
+}
+
+#header .primary li:not(.search),
+#header .primary li a {
+  color: #0a3254 !important;
+  background: rgb(191, 238, 254, .5);
+  border: none;
+}
+
+#greeting li,
+#greeting li a {
+  color: #0a3254 !important;
+  background: rgb(191, 238, 254, .5);
+  border: none;
+}
+
+#header .primary li:not(.search),
+#greeting li {
+  border: none;
+}
+
+#greeting .dropdown .menu li {
+  margin: 0 0.125em !important;
+}
+
+#greeting .menu {
+  width: 12em;
+}
+
+#greeting .icon img {
+  box-shadow: none;
+  border: 1px solid #fff;
+  border-radius: 90%;
+}
+
+#greeting .dropdown .menu,
+#greeting .dropdown .menu a {
+  background: #bfeefe;
+  color: #0a3254 !important;
+  box-shadow: none;
+}
+
+#greeting .actions a:hover,
+#greeting .actions a:focus,
+#greeting .dropdown:hover a,
+#greeting .open a,
+#greeting .dropdown .menu a {
+  background: #bfeefe;
+  color: #0a3254;
+}
+
+#header .menu {
+  background: #bfeefe;
+  box-shadow: none;
+  width: 20em;
+}
+
+#header .actions a.dropdown-toggle:hover,
+#header .dropdown-toggle:hover a {
+  background: #bfeefe;
+  color: #0a3254;
+}
+
+#header .actions a:focus,
+#header .open a,
+#header .dropdown .menu a,
+#header .dropdown .menu {
+  background: #bfeefe;
+  color: #0a3254;
+}
+
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus {
+  border-radius: 0px;
+}
+
+#header .dropdown .menu li,
+#greeting .current,
+#greeting .dropdown:hover li,
+#greeting .dropdown:focus li {
+  box-shadow: none;
+  background: #bfeefe;
+  color: #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#header #search .text {
+  border: none;
+  background: rgb(191, 238, 254, .5);
+  color: #0a3254;
+}
+
+.search [role="tooltip"] {
+  background: #bfeefe;
+  color: #0a3254;
+}
+
+#footer {
+  border-top: 4px solid;
+  border-color: #021423;
+}
+
+#footer.region {
+  background-image: url("https://i.imgur.com/H8nunOv.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #0a3254;
+}
+
+#footer h4.heading {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px 15px #000;
+}
+
+#footer a {
+  color: #f6f2e6 !important;
+  text-shadow: 2px 2px 15px #000;
+}
+
+#main,
+#main a {
+  color: #bfeefe;
+}
+
+.system .latest h3,
+.splash .module h3,
+.system .tweets h3 {
+  color: #bfeefe;
+}
+
+.splash .module h3 {
+  border-bottom: 1px solid #bfeefe;
+  color: #bfeefe;
+  font-variant: small-caps;
+}
+
+.splash .module a,
+h4.heading a {
+  color: #bfeefe !important;
+}
+
+.splash .module a:hover,
+h4.heading a:hover {
+  color: #34dce5 !important;
+}
+
+.splash .news li {
+  border-bottom: 1px solid #bfeefe;
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: transparent;
+}
+
+.splash .favorite li:nth-of-type(even) a {
+  color: #bfeefe !important;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(even) a:hover {
+  background: #bfeefe;
+  color: #021423 !important;
+}
+
+#dashboard a,
+#dashboard span {
+  color: #bfeefe !important;
+  background: rgba(2, 20, 35, 0.75);
+  vertical-align: middle;
+  word-wrap: break-word;
+  box-shadow: none;
+}
+
+#dashboard a:hover {
+  color: #fff;
+  background: #021423;
+}
+
+#dashboard ul {
+  border-top: none;
+}
+
+#dashboard .current {
+  background: #021423;
+  color: #fff;
+  border-style: solid;
+  border-radius: 65px 5px 5px 5px;
+}
+
+#dashboard,
+#dashboard.own,
+#dashboard.admin.region {
+  background: none;
+  border-top: #bfeefe;
+  border-bottom: #bfeefe;
+}
+
+ul.skin.picture.index.group li.blurb {
+  background: none;
+  border: 1px solid #34dce5;
+}
+
+#main.errors {
+  background: url("https://i.imgur.com/NLFRejv.png") center right no-repeat;
+}
+
+#main.error-502 {
+  background: url("https://i.imgur.com/NLFRejv.png") top right no-repeat;
+}
+
+#main.error-503-maintenance {
+  background: url("https://i.imgur.com/NLFRejv.png") center right no-repeat;
+}
+
+div.comment,
+li.comment {
+  border: 1px solid #a03cb8;
+  background: none;
+}
+
+.comment div.icon {
+  border: none;
+}
+
+.comment .icon .anonymous {
+  background: url("https://i.imgur.com/PhafEU9.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.comment .icon .visitor {
+  background: url("https://i.imgur.com/PhafEU9.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.index .skins .icon {
+  background: url("https://i.imgur.com/NLFRejv.png");
+  background-size: contain;
+}
+
+.index .mystery .icon {
+  background: url("https://i.imgur.com/PhafEU9.png");
+  background-size: contain;
+}
+
+.index .tag .icon,
+.index .tagset .icon {
+  background: url("https://i.imgur.com/NLFRejv.png");
+  background-size: contain;
+}
+
+.abbreviated .icon .anonymous {
+  background: url("https://i.imgur.com/PhafEU9.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.abbreviated .icon .visitor {
+  background: url("https://i.imgur.com/PhafEU9.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.comment h4.byline {
+  background: #bfeefe;
+  color: #021423;
+  border-top: 1px solid #bfeefe;
+  border-left: 1px solid #bfeefe;
+  border-right: 1px solid #bfeefe;
+  border-bottom: none;
+}
+
+.comment h4.byline a {
+  color: #021423 !important;
+}
+
+li.comment {
+  color: #bfeefe;
+  border: 1px solid #bfeefe;
+}
+
+.thread .even {
+  border: 1px solid #bfeefe;
+  background: rgb(191, 238, 254, .5);
+  color: #021423;
+}
+
+li.unread.comment.group h4.byline {
+  background: #bfeefe;
+  color: #021423;
+}
+
+li.unread.comment.group h4.byline a {
+  color: #021423 !important;
+}
+
+li.unread.comment.group {
+  background: rgb(191, 238, 254, .5);
+  color: #021423;
+}
+
+.replied,
+span.claimed,
+.actions span.defaulted {
+  background: #0a3254;
+  color: #bfeefe;
+  border: 1px solid #bfeefe;
+}
+
+span.unread {
+  background: #bfeefe;
+  color: #0a3254;
+  border: 1px solid #bfeefe;
+}
+
+.actions span.defaulted {
+  color: #bfeefe;
+}
+
+.skins .primary .icon,
+.admin .primary .icon,
+.tag .primary .icon,
+.tagset .primary .icon .wrangler .primary .icon {
+  background: url("https://i.imgur.com/NLFRejv.png");
+  border: none;
+}
+
+p.kudos {
+  background: url("https://i.imgur.com/aYBnh6M.png") no-repeat;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background: #bfeefe;
+  border: 1px solid #bfeefe;
+  color: #021423;
+  margin: .643em auto;
+  padding: .25em .375em;
+  clear: right;
+  box-shadow: none;
+  border-radius: .25em;
+}
+
+dl.meta {
+  background: rgba(2, 20, 35, 0.65);
+}
+
+dl.meta a {
+  color: #bfeefe;
+}
+
+.listbox>.heading,
+.listbox .heading a:visited {
+  margin: 0;
+  color: #bfeefe;
+  padding: .25em;
+}
+
+.listbox .index {
+  width: auto;
+  padding: .643em;
+  float: none;
+  clear: right;
+  background: rgba(2, 20, 35, 0.3);
+  box-shadow: none;
+}
+
+.listbox a {
+  color: #bfeefe !important;
+}
+
+.blurb h4 a:link,
+.blurb h4 img {
+  color: #34dce5;
+  vertical-align: bottom;
+}
+
+ol.work.index.group li,
+ol.bookmark.index.group li,
+li.collection.picture.blurb.group,
+li.user.pseud.picture.blurb.group {
+  background: rgba(2, 20, 35, 0.3);
+}
+
+ol.work.index.group li.blurb {
+  border: 1px solid #34dce5;
+}
+
+.blurb .relationships {
+  background: transparent;
+}
+
+li.relationships a,
+.work .relationship a.tag {
+  background: none;
+}
+
+.warnings .tag,
+.work .warning a.tag,
+dt.warning.tags a,
+dd.warning.tags a {
+  color: #ffe83c !important;
+}
+
+.relationships .tag,
+.work .relationships a.tag,
+dt.relationship.tags,
+dd.relationship.tags a {
+  color: #e68187 !important;
+}
+
+.characters .tag,
+.work .characters a.tag,
+dt.character.tags,
+dd.character.tags a {
+  color: #18c338 !important;
+}
+
+.freeforms .tag,
+.work .freeforms a.tag,
+dt.freeform.tags,
+dd.freeform.tags a {
+  color: #fff !important;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions input,
+input[type=submit],
+button,
+.current,
+.actions label {
+  background: #bfeefe;
+  color: #021423 !important;
+  background-image: none;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid #bfeefe;
+  box-shadow: none;
+}
+
+label {
+  color: #bfeefe;
+}
+
+.javascript {
+  background: #0a3254;
+}
+
+fieldset.comments,
+.comment .userstuff {
+  border: #bfeefe;
+  box-shadow: none;
+}
+
+fieldset {
+  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/ocean-surface-pattern-christopher-johnson.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  display: block;
+  background: rgba(2, 20, 35, 0.8);
+  border: none;
+  color: #bfeefe;
+  margin: .643em;
+  padding: .643em;
+  box-shadow: none;
+}
+
+fieldset dl,
+fieldset.actions,
+fieldset dl fieldset dl {
+  background: rgba(2, 20, 35, 0.8);
+  color: #bfeefe;
+  clear: right;
+  box-shadow: none;
+}
+
+fieldset fieldset,
+fieldset dl dl,
+form blockquote.userstuff {
+  background: rgba(2, 20, 35, 0.3);
+  color: #bfeefe;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  clear: right;
+  background: rgba(2, 20, 35, 0.3);
+  border: 1px solid #34dce5;
+  padding: 0;
+  margin: .643em auto;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+.filters dt {
+  background: rgba(2, 20, 35, 0.3);
+  border: none;
+}
+
+.filters .expander {
+  border: none;
+  color: #bfeefe !important;
+}
+
+table {
+  background: #021423;
+  border-color: #bfeefe;
+  border-collapse: collapse;
+}
+
+thead,
+tfoot {
+  border-bottom: 1px solid #bfeefe;
+}
+
+tfoot td {
+  border-top: 1px solid #bfeefe;
+}
+
+tbody tr {
+  border-bottom: 1px solid #fff;
+}
+
+thead td {
+  background: #021423;
+  color: #fddbdc;
+  border-bottom: 1px solid #bfeefe;
+}
+
+span.question {
+  background: #fff;
+  border: 2px solid #021423;
+  box-shadow: none;
+  color: #021423;
+}
+
+#modal {
+  background: #021423;
+  border: 3px solid #021423;
+  box-shadow: none;
+  color: #bfeefe;
+}
+
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul {
+  background: rgba(2, 20, 35, 0.3);
+  border: 1px solid #bfeefe;
+  color: #bfeefe;
+  display: block;
+  box-shadow: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  background: rgba(2, 20, 35, 0.7);
+  color: #bfeefe;
+}
+
+textarea {
+  background: #021423;
+  color: #bfeefe;
+}
+
+.LV_invalid,
+form.notice,
+p.notice {
+  background: #bfeefe;
+  border: 1px solid #df6757;
+  color: #021423;
+  box-shadow: none;
+  border-radius: .25em;
+  font-weight: normal;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #bfeefe;
+  color: #021423;
+  border: 1px solid #34dce5;
+  box-shadow: none;
+}
+
+.tox .tox-edit-area__iframe {
+  background-color: #021423;
+  color: #bfeefe;
+}
+
+.draft {
+  background-color: #021423;
+  color: #bfeefe;
+}
+
+.toggled form,
+.dynamic form {
+  padding: .5em;
+  border: 1px solid #fff;
+  background: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/ocean-surface-pattern-christopher-johnson.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: none;
+  color: #fff;
+}
+
+ul.series.work.index.group li {
+  background: rgba(2, 20, 35, 0.3);
+}
+
+.statistics .index li:nth-of-type(even) {
+  background: rgba(2, 20, 35, 0.3);
+}
