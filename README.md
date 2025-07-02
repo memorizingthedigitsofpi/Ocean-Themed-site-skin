@@ -1,4 +1,4 @@
-CREATING A NEW SITE SKIN
+# CREATING A NEW SITE SKIN
 
 In order to create a site skin, you need to have an AO3 account and you need to be logged in.
 
@@ -13,7 +13,7 @@ In order to create a site skin, you need to have an AO3 account and you need to 
 9. On the site skin page, tap on the button labelled Use. You will now have this skin every time you're logged in on any device.
 
 
-TO ADJUST THE TRANSPARENCY OF THE OVERLAY
+# TO ADJUST THE TRANSPARENCY OF THE OVERLAY
 
 Look for the parts with rgba colours - the last number inside the brackets is the amount of transparency. You can adjust how much or how little you can see through the colour by changing that decimal number.
 
@@ -21,3 +21,9 @@ For example:
 background: rgba(2, 20, 35, 0.5);
 
 This is the code for the dark blue overlay, and 0.5 means 50% transparent. You can make it more transparent by making the number smaller, like 0.3. You can make it more opaque by making the number larger, like 0.75
+
+# IMAGES
+
+![image](https://github.com/user-attachments/assets/c1c0a88e-0bb1-4fe0-9f88-bc04be61140b)
+![image](https://github.com/user-attachments/assets/73558dbb-2bde-4632-9650-e051b3e0c994)
+
